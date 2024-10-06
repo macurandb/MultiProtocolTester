@@ -1,0 +1,7 @@
+kafka:
+  bootstrap_servers: "localhost:9092"
+  topics:
+    send_topic: "test-topic"
+    receive_topic: "test-topic"
+  group_id: "test-consumer-group"
+  timeout: 5000
